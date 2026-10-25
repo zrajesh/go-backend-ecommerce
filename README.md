@@ -1,10 +1,12 @@
 # Ecommerce API
 
-## Running the API
+## Quick start
 
 ```bash
-docker compose up -d
+make run
 ```
+
+Starts Postgres, applies migrations and serves the API on `:8080`. Stop the database with `make stop`.
 
 ## Prerequisites
 - Docker
